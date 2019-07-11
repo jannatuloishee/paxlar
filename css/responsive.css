@@ -1,0 +1,94 @@
+@media(max-width: 1199px){
+	.navbar-light .navbar-nav .nav-link {
+    font-size: 11px;
+}
+    .steps .steps-box h1:after{
+    top: 15%;
+    transform: translate(-15%, -4%);
+}
+
+@media(max-width: 991px){
+	.navbar-light .navbar-nav .nav-link{
+		display: inline-block;
+	} 
+}
+.navbar-nav{
+	text-align: center;
+}
+.navbar-nav li .btn-custom{
+	display: none !important;
+}
+.phone img{
+	display: none !important;
+}
+.services-section .service {
+    margin-bottom: 30px;
+    }
+.service-sec .service-content {
+    margin-bottom: 30px;
+}
+.blog .card {
+    border-radius: 10px;
+    width: 315px;
+    margin: auto;
+    margin-bottom: 30px;
+    }
+@media(max-width: 767px){
+	.transaction .container{
+		width: 100% !important;
+		max-width: 100%;
+	}
+	.middle-right {
+    right: -49px;
+}
+
+    .blog .card {
+    width: 300px;
+}
+.service h2, .service p {
+    font-size: 13px;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before {
+    font-size: 45px;
+    margin-left: 0;}
+
+@media(max-width: 575px){
+	.top-menu li a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.step{
+	text-align: center;	
+}
+.steps .steps-box h1:after {
+	left: 47%;
+    top: 0%;
+    transform: translateX(-47%);
+}
+.steps .steps-box ul li span {
+	    margin-bottom: 10px;
+}
+
+.transaction ul li{
+	width: 50%;
+	margin-bottom: 30px;
+}
+.top-left {
+    left: -80px;
+}
+.bottom-left {
+    left: -80px;
+}
+.top-right {
+    right: -80px;
+}
+.bottom-right {
+    right: -80px;
+}
+@media(max-width: 350px){
+	.transaction ul li{
+		width: 100%;
+
+	}
+	
+}
